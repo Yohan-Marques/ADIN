@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 600px;
+    height: 900px;
+    margin: 0 auto;
+    font-family:sans-serif;
+}
+main{
+    display: flex;
+    margin-top: 50px;
+}
+img{
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: .8em;
+    
+}
+li{
+    list-style: none;
+    margin-left: 5px;
+    color: black;
+    
+
+}
+
+/*LOGO*/
+.logo{
+    background-color: yellow;
+    width: 600px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+   
+   
+}
+.logo-2 img{
+  margin-top: 10px;
+  width: 600px;
+ 
+}
+/*Lado esquerdo*/
+.one {
+    text-align: center;
+    width: 320px;
+    
+    
+    
+}
+.cama-div{
+    margin-bottom: 20px;
+}
+.cama{
+    line-height: 1.2;
+    
+    
+}
+.cama .cinza{
+    font-size: 13px;
+    color: rgb(119, 119, 119);
+}
+.cama .PG-CAMA{
+    color: red;
+    font-size: 35px;
+    font-weight: 700;
+}
+.cama .RS{
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    top: -4px;
+}
+.number-2{
+    font-size: 25px;
+    position: relative;
+    top: -7px;
+}
+.PG-2{
+    color: rgb(119, 119, 119);
+}
+.red{
+    color: red;
+}
+/*cozinha*/
+
+.DEZ{
+    display: inline-block;
+    color: red;
+    font-weight: 800;
+    line-height: .9;
+    font-size: 15px;
+}
+.RS{
+    font-size: 20px;
+    position: relative;
+    left: 2px;
+}
+.number{
+    font-size: 35px;
+    color: red;
+    font-weight: 700;
+}
+.number-co{
+    font-size: 25px;
+    font-weight: 800;
+    position: relative;
+    top: -7px;
+}
+.PG-C{
+    color: red;
+    font-weight: 700;
+}
+.spann{
+    color: rgb(119, 119, 119);
+    font-weight: normal;
+}
+.total{
+    color: red;
+    font-size: 13px;
+    font-weight: 700;
+}
+/*Ferro*/
+.valor{
+    color: rgb(119, 119, 119);
+    font-size: 13px;
+    font-weight: 700;
+}
+.R{
+    color: red;
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    top: -4px;
+}
+.juros{
+    color: red;
+    font-weight: 700;
+}
+.PG-F{
+    color: rgb(119, 119, 119);
+
+}
+.number-f{
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    top: -7px;
+}
+/*FIM DO ONE*/
+
+/*COMEÇO DO TWO*/ 
+.two{
+    text-align: center;
+    width: 320px;
+}
+.preant{
+    color: rgb(119, 119, 119);
+    font-size: 13px;
+    font-weight: 700;
+}
+.number-10{
+    display: inline-block;
+    color: red;
+    font-weight: 800;
+    line-height: .9;
+    font-size: 15px;
+}
+.RS-R{
+    font-size: 20px;
+    position: relative;
+    left: 2px;
+   
+}
+.number-R{
+    font-size: 35px;
+    color: red;
+    font-weight: 700;
+}
+.R-90{
+    position: relative;
+    top: -7px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.PG-R{
+    color: rgb(119, 119, 119);
+    
+}
+.semjuros{
+    color: red;
+    font-weight: 700;
+}
+.total-R{
+    color: red;
+    font-size: 13px;
+    font-weight: 700;
+}
+.sofa-div{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.ferro-div{
+    margin-bottom: 15px;
+}
+.som-div{
+    margin-bottom: 33px;
+}
+.btn{
+    background-color: #33cc00;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0px 1px 5px black;
+    cursor: pointer;
+}
+.btn-2{
+    background-color: #33cc00;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 35px;
+    box-shadow: 0px 1px 5px black;
+    cursor: pointer;
+    
+    
+    
+}
+.play img{
+    width: 600px;
+}
+.veja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.local{
+    height: 150px;
+    position: relative;
+    background-color: yellow;
+    
+    
+}
+.text-btn{
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    margin-left:  150px;
+    padding-top: 25px;
+}
+
+.mapa{
+    position: absolute;
+    margin-left: 20px;
+    bottom: 10px;
+}
+.localização{
+   margin: 0;
+   width: 600px;
+}
+.redes{
+    height: 170px;
+    width: 600px;
+    text-align: center;
+    color: rgb(119, 119, 119);
+    font-size: 25px;
+    padding-top: 15px;
+    border-bottom: 25px solid yellow;
+
+    
+}
+.redes a + a{
+    margin-left: 35px;
+}
+footer{
+    margin: 10px 15px;
+    height: 150px;
+    font-size: .63em;
+    
+
+}
+footer a{
+    color: rgb(214, 43, 20);
+    text-decoration: underline;
+}
